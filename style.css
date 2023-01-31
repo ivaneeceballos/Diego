@@ -270,6 +270,12 @@ h2 {
     margin: 10px;
     border: 2px black solid;
   }
+  .containerD div img {
+    width: 30vh;
+    height: 30vh;
+    margin: 10px;
+    border: 2px black solid;
+  }
 
   .PromosClass div img {
     width: 30vh;
@@ -313,13 +319,14 @@ h2 {
   /* Deportivo */
   .containerD {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
-      "short1 short-2 short-3"
-      "calza-1 calza-2 calza-3";
+      "short1 short-2 "
+      "short-3 calza-1"
+      "calza-2 calza-3";
     justify-items: center;
     text-align: center;
     font-size: 30px;
@@ -355,6 +362,12 @@ h2 {
   }
 
   .container div img {
+    width: 25vh;
+    height: 25vh;
+    margin: 10px;
+    border: 2px black solid;
+  }
+  .containerD div img {
     width: 25vh;
     height: 25vh;
     margin: 10px;
@@ -401,14 +414,17 @@ h2 {
   /* Deportivo */
   .containerD {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
-      "short1 short-2"
-      "short-3 calza-1"
-      "calza-2 calza-3";
+      "short1" 
+      "short-2"
+      "short-3" 
+      "calza-1"
+      "calza-2" 
+      "calza-3";
     justify-items: center;
     text-align: center;
     font-size: 30px;
